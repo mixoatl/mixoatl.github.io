@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+body {
+    background-color: #F5F3F1;
+    position: relative;
+    padding-bottom: 2em;
+    min-height: 100vh;
+}
+
+main {
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.publicaciones h2 {
+    margin: 0px 0px 15px;
+}
+
+.logo {
+    width: 100px;
+    display: flex;
+    justify-content: start;
+}
+
+.postArt{
+    display: block;
+    height: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+.nav-link {
+    padding: 15px !important;
+}
+
+.nav-link:hover{
+    color: rgb(255, 165, 109);
+}
+
+.active:hover{
+    color: rgb(255, 119, 0) !important;
+}
+
+.info button {
+    margin: 10px 0px;
+}
+
+#perfil {
+    width: 60px;
+}
+
+.galeria {
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+
+.post {
+    max-width: 600px;
+    margin: 10px 30px;
+}
+
+.inspo {
+    margin: 20px 0px;
+}
+
+.publicacionesArtec {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.imagenesArtec {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+main > .container-fluid {
+    padding-top: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.signika-negative {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}

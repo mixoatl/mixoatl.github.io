@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ar-Tec</title>
+    <link rel="icon" href="./images/icono.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="signika-negative">
+    <header>
+        <div class="container-fluid text-center">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">
+                        <img class="logo" src="./images/logo.svg" alt="Logo">
+                    </a>
+                    <div class="navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="publicaciones.html">Publicaciones</a>
+                            <a class="nav-link" href="inspiraciones.html">Inspiraciones</a>
+                            <a class="nav-link active" aria-current="page" href="#">Ar-Tec</a>
+                            <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="nav justify-content-end info">
+                            <li class="nav-item"><a href="login.html"><img id="perfil" src="./images/perfil.png"
+                                        alt="Foto de perfil"></a></li>
+                            <li class="nav-item"><button type="button" class="btn btn-outline-danger"
+                                    id="magicButton">Magia</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <h2>Arte y Tecnología</h2>
+            <p>En la palma de la mano</p>
+
+            <h4 class="d-flex justify-content-end">Publicaciones</h4>
+            <div class="publicacionesArtec">
+                <div class="card mb-3 post">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./images/postArt1.png" class="img-fluid rounded-start postArt" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">¿Cómo ser una desarrolladora?</h5>
+                                <p class="card-text">En este espacio, veremos las características y cómo prepararnos para ser una desarrolladora de software</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 post">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./images/postArt2.png" class="img-fluid rounded-start postArt" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Webinar de Diseño Gráfico</h5>
+                                <p class="card-text">El evento tratará sobre diversos temas que se abordan en el diseño gráfico, tales como: la tipografía, la teoría de color, imágenes, entre otros. ¡No faltes!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="d-flex justify-content-end">Inspiraciones</h4>
+            <div class="imagenesArtec">
+                <div class="card text-bg-dark inspo">
+                    <img src="./images/inspoArt1.png" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-danger">NeuroArt</h5>
+                        <p class="card-text">Arte con una mezcla de Inteligencia Artificial</p>
+                    </div>
+                </div>
+                <div class="card text-bg-dark inspo">
+                    <img src="./images/inspoArt2.png" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-warning">Día del Diseño Gráfico</h5>
+                        <p class="card-text text-dark">Maravilloso día de celebración para el ingenio creativo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="align-items-center py-3 mt-4 border-top bg-body-tertiary">
+        <div class="container-fluid d-flex flex-wrap justify-content-between ">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 PixelPress, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/mixoatl" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="icono bi bi-github"></i>
+                    </a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/mixoatl/"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="icono bi bi-linkedin"></i>
+                    </a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/mixoatl/"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="icono bi bi-instagram"></i>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="magia.js"></script>
+    <script src="login.js"></script>
+    <script src="registro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
